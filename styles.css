@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    width: 592px;
+    height: 579px;
+    margin: auto;
+    text-align: center;
+}
+
+#balls {
+    position: fixed;
+    z-index: 1;
+    bottom: 0px;
+    right: 0px;
+}
+
+#hero {
+    width: 348px;
+    height: 223px;
+    margin-bottom: 72px;
+}
+
+#text {
+    margin-bottom: 72px;
+}
+
+h1 {
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+h1 span {
+   color: #FF9900; 
+   font-weight: bold;
+}
+
+p {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+p span {
+    color: #FF9900
+}
+
+footer {
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    padding: 12px;
+    border-top: 1px solid #ECEFF2;
+}
+
+a {
+    text-decoration: none;
+    color: #FF9900;
+}
+
+
